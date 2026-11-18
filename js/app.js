@@ -5,7 +5,7 @@ const bestText = document.querySelector('.best')
 const message = document.querySelector('.message')
 const btnRestart = document.querySelector('.restart')
 
-const emojis = ['☘️', '🌱', '🪴', '🌲', '🌳', '🌿', '🌵', '🌴'];
+const emojis = ['🐟', '🦈', '🐳', '🫍', '🐬', '🦭', '🪼', '🦑'];
 
 const makeCards = () => [...emojis, ...emojis]
 
@@ -36,8 +36,6 @@ const shuffle = (arr) => {
     }
     return arr
 }
-
-// render(shuffle(makeCards()))
 
 let first = null
 let second = null
